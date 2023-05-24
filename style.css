@@ -2,14 +2,14 @@
 
 
 body {
-    background: #ccccbb ;
+    background: #ffffff ;
     font-family: "Lato", sans-serif;
     
 }
 
 #nav-bar{
     font-size: 20px;
-    background: #9ec4bb;
+    background: #000000;
     color: white;
     padding: 19px ;
     list-style-type: none;
