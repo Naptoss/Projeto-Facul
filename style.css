@@ -2,18 +2,22 @@
 
 
 body {
-    background: gray ;
+    background: #d4c098 ;
     font-family: "Lato", sans-serif;
+    
 }
 
 #nav-bar{
     font-size: 20px;
-    background: black;
+    background: #f6f6e2;
     color: white;
-    padding: 5px ;
+    padding: 10px ;
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
-    border-radius: 10px;
+    justify-content: space-around;
+    border-radius: 15px;
+    width:98%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    
 
 }
