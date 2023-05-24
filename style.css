@@ -2,16 +2,16 @@
 
 
 body {
-    background: #d4c098 ;
+    background: #ccccbb ;
     font-family: "Lato", sans-serif;
     
 }
 
 #nav-bar{
     font-size: 20px;
-    background: #f6f6e2;
+    background: #9ec4bb;
     color: white;
-    padding: 10px ;
+    padding: 19px ;
     list-style-type: none;
     display: flex;
     justify-content: space-around;
