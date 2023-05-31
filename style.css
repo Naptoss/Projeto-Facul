@@ -42,7 +42,13 @@ body {
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
+    margin-top: 50px;
 
+
+}
+
+#main{
+    display: flex;
 }
 
 #cor1 {
