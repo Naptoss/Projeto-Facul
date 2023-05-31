@@ -43,7 +43,6 @@
                 </p>
             </div>
         </div>
-
         <div class="faq">
             <button class="accordion">
                 Qual e a forma de pagamento aceita?
@@ -55,7 +54,6 @@
                 </p>
             </div>
         </div>
-
         <div class="faq">
             <button class="accordion">
                 Qual e o prazo de cancelamento ?
@@ -67,7 +65,6 @@
                 </p>
             </div>
         </div>
-
         <div class="faq">
             <button class="accordion">
                 Quanto tempo e o prazo de garantia ?
@@ -79,7 +76,6 @@
                 </p>
             </div>
         </div>
-
         <div class="faq">
             <button class="accordion">
                 Qual e o horario de atendimento ?
@@ -91,7 +87,6 @@
                 </p>
             </div>
         </div>
-
         <div class="faq">
             <button class="accordion">
                 Quanto tempo seria o prazo de devolução ?
@@ -104,22 +99,18 @@
             </div>
         </div>
     </div>
-
     <script>
         var acc = document.getElementsByClassName("accordion");
         var i;
-
-        for(i = 0; i < acc.length; i++){
+        for (i = 0; i < acc.length; i++) {
             acc[i].addEventListener("click", function
-            (){
+                () {
                 this.classList.toggle("active");
                 this.parentElement.classList.toggle("active");
-                
                 var pannel = this.nextElementSibling;
-                
-                if(pannel.style.display === "block"){
+                if (pannel.style.display === "block") {
                     pannel.style.display = "none";
-                }else{
+                } else {
                     pannel.style.display = "block";
                 }
             })
