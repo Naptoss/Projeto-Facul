@@ -68,7 +68,10 @@ body {
     justify-content: space-around;
     font-family: "Lato", sans-serif;
     font-size: 20px;
-    margin: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 1.5%;
     text-align: center;
 }
 
@@ -82,8 +85,6 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
-    flex-direction: column;
-    margin-top: 50px;
     text-align: center;
 }
     
