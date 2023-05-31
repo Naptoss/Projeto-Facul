@@ -27,8 +27,8 @@ body {
     width:98%;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     
-
 }
+
 
 #card-id {
     background: white;
@@ -57,35 +57,33 @@ body {
     color: #eda011; text-decoration: none;
 
 }
+#cor2 {
+    color:#333333; text-decoration: none;
+}
+
+#cor3{
+    color: #e5e5e5 ; text-decoration: none;
+}
 
 #botoes{
     width: 400px;
     height: 70px;
 }
 
-#rodape1{
-    display: flex;
-    justify-content: space-around;
-    font-family: "Lato", sans-serif;
-    font-size: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
+#rodape{
+    display: grid;
     margin-top: 10%;
-    margin-bottom: 1.5%;
-    text-align: center;
-}
-
-#rodape2{
     background: #333333;
     border-radius: 15px;
     width: 98%;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-    padding: 20px;
+    
+}
+
+#rodape2{
+    margin-left: 5%;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
 }
     
 
