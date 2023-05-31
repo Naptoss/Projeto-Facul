@@ -36,29 +36,33 @@
             </li>
         </nav>
     </header>
-    <main>
-        <form method="get" action="obrigado.html" style="font-size: 30;">
+    <main style="margin-top: 50px;">
+        <p id="destaque">Bom dia! Siga as seguintes instruções para o envio de sua mensagem.
+        </p>
+        <section id="contatodisplay">
+        <form method="get" action="obrigado.html" style="font-size: 30;border: 0px;">
             <center>
-                <h2>Bom dia! Siga as seguintes instruções para o envio de sua mensagem.</h2>
-                <fieldset style="border: 1px solid  rgb(248, 237, 179)">
+                <div>
                     <label>Insira seu nome:</label>
-                    <input type="text" id="name" name="nome" placeholder="Seu nome aqui" required> <br>
+                    <input type="text" id="name" name="nome" placeholder="Seu nome aqui" required style="border-radius: 30px;"> <br>
                     <label>Insira seu email:</label>
-                    <input type="text" id="email" name="email" placeholder="seuemail@gmail.com" required> <br>
+                    <input type="text" id="email" name="email" placeholder="seuemail@gmail.com" required style="border-radius: 30px;"> <br>
                     <label>Informe o assunto de sua mensagem:</label>
-                    <input type="text" id="email" name="email" placeholder="Assunto aqui" required> <br>
+                    <select id="assunto" name="assunto" placeholder="Assunto da Mensagem" required style="border-radius: 30px;">
+                        <option value="1"> Contato para Parceria</option>
+                        <option value="2"> Envio de Currículo</option>
+                        <option value="3"> Reclamação</option>
                     </select> <br>
                     <label>Escreva sua mensagem:</label> <br>
                     <textarea rows="20" cols="100" id="mensagem" name="mensagem"
-                        style="font-size: 25;" required> </textarea> <br>
+                        style="font-size: 25; background-color: white;border-radius: 15px;" required> </textarea> <br>
                     <input type="checkbox" style="font-size:35px;height: 25px;width: 25px;" required>
                     <label> Concordo com os termos de privacidade</label><br>
-                    <button type="submit" style="font-size: 35px;">Envio</button>
-                </fieldset>
+                    <button type="submit" style="font-size: 20px;border-radius: 15px;">Envio</button>
+                </div>
             </center>
         </form>
-        </div>
-        </div>
+        </section>
     </main>
 </body>
 <footer>
@@ -83,7 +87,4 @@
         </div>
     </div>
 </footer>
-
 </html>
-
-<h1></h1>
