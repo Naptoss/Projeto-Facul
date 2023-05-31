@@ -44,11 +44,11 @@ body {
     flex-direction: column;
     margin-top: 50px;
 
-
 }
 
 #main{
     display: flex;
+    justify-content: center;
 }
 
 #cor1 {
