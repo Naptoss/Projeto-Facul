@@ -250,3 +250,30 @@ body {
 .search-box:hover > .search-btn{
     background: white;
 }
+
+.arr{
+    position:absolute;
+    background: #333333;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    top: 57%;
+    left: 17%;
+    transform: translate(-50%,-50%);
+    transition: 0.4s;
+}
+
+.arr:hover{
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.286);
+}
+
+.arr div{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-top: 2.5px solid #eda011;
+    border-left: 2.5px solid #eda011;
+    transform: rotate(-45deg);
+    left: 15px;
+    top: 14px;
+}
