@@ -3,9 +3,8 @@
 
 
 body {
-    background:  #e5e5e5 ;
+    background: linear-gradient(#e5e5e5,#eda01123) ;
     font-family: "Lato", sans-serif;
-    
 }
 
 #titulo{
