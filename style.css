@@ -23,11 +23,27 @@ body {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-    border-radius: 15px;
+    border-radius: 10px 10px 0px 0px;
     width:98%;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     
 }
+
+#nav-bar2{
+    font-size: 20px;
+    font-weight: 999;
+    background:#eda011;
+    color: white;
+    padding: 4px ;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 0px 0px 10px 10px;
+    width:99.64%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    
+}
+
 
 
 #card-id {
@@ -77,7 +93,7 @@ body {
     margin-top: 10%;
     background: #333333;
     border-radius: 15px;
-    width: 98%;
+    width: 100%;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     
 }
@@ -177,7 +193,7 @@ body {
 
 .search-box {
     position:absolute;
-    top:45%;
+    top:50%;
     left:50%;
     transform: translate(-50%,-50%);
     background: #333333;
