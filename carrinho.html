@@ -14,7 +14,10 @@
         rel="stylesheet"
     />
     <title>Loja de Eletronicos</title>
-
+    <style>
+        /* Estilos adicionais para a tabela de carrinho de compras */
+    
+    </style>
 </head>
 
 <body>
@@ -34,7 +37,48 @@
         </nav>
     </header>
 
-    
+    <div>
+        <div>
+            <h1 style="text-align: center; margin-top: 5%;">Carrinho de Compras</h1>
+            <p>
+                <table id="tabela">
+                    <thead>
+                        <tr>
+                            <th>Produto</th>
+                            <th>Quantidade</th>
+                            <th>Preço</th>
+                            <th>Subtotal</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Produto 1</td>
+                            <td><input type="number" class="quantidade-input" value="1" min="1"></td>
+                            <td>R$ 10,00</td>
+                            <td>R$ 10,00</td>
+                            <td><i class="remover-item far fa-trash-alt"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Produto 2</td>
+                            <td><input type="number" class="quantidade-input" value="1" min="1"></td>
+                            <td>R$ 15,00</td>
+                            <td>R$ 15,00</td>
+                            <td><i class="remover-item far fa-trash-alt"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Produto 3</td>
+                            <td><input type="number" class="quantidade-input" value="1" min="1"></td>
+                            <td>R$ 20,00</td>
+                            <td>R$ 20,00</td>
+                            <td><i class="remover-item far fa-trash-alt"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </p>
+        </div>
+    </div>
+
     <footer>
         <div id="rodape">
             <div style="text-align: center;">
@@ -50,12 +94,33 @@
                 <div id="rodape2" style="margin-left: 10%;">
                     <h3>Sobre nós: </h3>
                     <p style="margin-left: 10px;">
-                    Fundada em 2023 nossa loja prioriza sempre a qualidade de atendimento e satisfação do consumidor. Fazemos de tudo para garantir sua <br>
-                    satisfação! Trazendo grande game de produtos de diversas categorias com preços acessíveis.
+                        Fundada em 2023 nossa loja prioriza sempre a qualidade de atendimento e satisfação do consumidor.
+                        Fazemos de tudo para garantir sua <br>
+                        satisfação! Trazendo grande game de produtos de diversas categorias com preços acessíveis.
                     </p>
                 </div>
             </div>
         </div>
     </footer>
-    </html>
+
+    <script>
+        // Obtém a tabela do carrinho
+        const tabelaCarrinho = document.getElementById('tabela');
+
+        // Adiciona um ouvinte de evento para capturar cliques na tabela
+        tabelaCarrinho.addEventListener('click', function (event) {
+            const elementoClicado = event.target;
+
+            // Verifica se o ícone de remover item foi clicado
+            if (elementoClicado.classList.contains('remover-item')) {
+                // Obtém a linha (tr) que contém o item a ser removido
+                const linhaItem = elementoClicado.parentNode.parentNode;
+
+                // Remove a linha da tabela
+                tabelaCarrinho.removeChild(linhaItem);
+            }
+        });
+    </script>
 </body>
+
+</html>
