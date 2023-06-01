@@ -70,6 +70,15 @@ body {
     margin-top: 130px;
 }
 
+#prodtit{
+    margin-top: 10%;
+    font-size: 27px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 999;
+    color: #333333;
+}
+
 #cor1 {
     color: #eda011; text-decoration: none;
 
