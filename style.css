@@ -66,6 +66,8 @@ a{
 
 }
 
+
+
 #main{
     display: flex;
     justify-content: center;
@@ -290,3 +292,24 @@ a{
     top: 14px;
 }
 
+
+#titulo-carrinho {
+    font-family: "Lato", sans-serif;
+    color: #eda011;
+    text-decoration: underline;
+}
+
+
+#card-carrinho {
+    background: white;
+    border-radius: 15px;
+    margin: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    text-align: left;
+}
