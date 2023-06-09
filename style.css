@@ -5,6 +5,8 @@
 body {
     background: linear-gradient(#e5e5e5,#eda01123) ;
     font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 a{
@@ -23,12 +25,14 @@ a{
     font-size: 20px;
     background:#333333;
     color: white;
-    padding: 19px ;
+    padding: 0px ;
+    height: 6vh;
+    align-items: center;
     list-style-type: none;
     display: flex;
     justify-content: space-around;
     border-radius: 10px 10px 0px 0px;
-    width:98%;
+    width:99.3vw;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2); 
 }
 
@@ -37,12 +41,14 @@ a{
     font-weight: 999;
     background:#eda011;
     color: white;
-    padding: 4px ;
+    height: 3.5vh;
+    align-items: center;
+    padding: 0px ;
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
     border-radius: 0px 0px 10px 10px;
-    width:99.64%;
+    width:99.3vw;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     
 }
@@ -63,7 +69,6 @@ a{
     flex-direction: column;
     margin-top: 50px;
     text-align: center;
-
 }
 
 
@@ -292,24 +297,54 @@ a{
     top: 14px;
 }
 
-
-#titulo-carrinho {
-    font-family: "Lato", sans-serif;
-    color: #eda011;
-    text-decoration: underline;
+#carrinho{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    justify-content: center;
 }
 
-
-#card-carrinho {
+.card-carrinho {
     background: white;
-    border-radius: 15px;
-    margin: 5px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-    padding: 5px;
+    height: 10%;
+    width: 98.2%;
+    padding: 10px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
-    margin-top: 30px;
-    text-align: left;
+}
+
+.btn-remover{
+    color: #eda011;
+    background: none;
+    border: none;
+    outline: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#btn-finalizar{
+    width: 99.2vw;
+    height: 6.5vh;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.btn-finalizar {
+    width: 25%;
+    height: 100%;
+    background: #eda011;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    color: #333333;
+    font-family: lato;
+    font-weight: 800;
+    font-size: 21pt;
+    border-radius: 0px 0px 15px 15px;
 }
