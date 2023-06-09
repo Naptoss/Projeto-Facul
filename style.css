@@ -348,3 +348,18 @@ a{
     font-size: 21pt;
     border-radius: 0px 0px 15px 15px;
 }
+
+.btn-voltar{
+    height: 45px;
+    width: 225px;
+    background: #333333;
+    color: #eda011;
+    text-align: center;
+    font-weight: 800;
+    cursor: pointer;
+    font-size: 15pt;
+    outline: none;
+    text-decoration: none;
+    font-family: lato;
+    box-shadow: 0 0 5px 1px #333333;
+}
