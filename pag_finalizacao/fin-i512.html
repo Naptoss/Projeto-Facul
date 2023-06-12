@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Loja de Eletronicos</title>
+    <script>
+        function showPopup() {
+            alert("Compra Realizada com sucesso !")
+        }
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <header>
+            <div class="title" id="titulo">
+                <a href="../index.html"><h1 id="cor1">
+                    LOJA DE ELETRÔNICOS
+                </h1></a>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav-bar">
+                <li>
+                    <a href="../index.html" id="cor1"><img src="../imagens/home.png" width="20px" height="20px"> Home
+                    </a>
+                </li>
+                <li>
+                    <a href="../sobre-nois.html" id="cor1">
+                    <img src="../imagens/saiba-mais.png" width="20px" height="20px"> Saiba mais
+                    </a>
+                </li>
+                <li>
+                    <a href="../suporte.html" id="cor1"><img src="../imagens/suporte.png" width="20px" height="20px"> Suporte
+                    </a>
+                </li>
+                <li>
+                    <a href="../carrinho.html" id="cor1"><img src="../imagens/carrinho.png" width="20px" height="20px"> Carrinho
+                    </a>
+                </li>
+            </nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav-bar2">
+                <li>
+                    <a href="../pag_vendas/hardware.html" id="cor2">Hardware</a>
+                </li><li>
+                    <a href="../pag_vendas/notebooks.html" id="cor2">Notebooks</a>
+                </li>
+                <li>
+                    <a href="../pag_vendas/celulares.html" id="cor2">Celulares</a>
+                </li>
+                <li>
+                    <a href="../pag_vendas/acessorios.html" id="cor2">Acessórios</a>
+                </li>
+            </nav>
+        </header>
+        <div id="finalizacao">
+            <div id="finalizacao-items">
+                <div class="esq-items">
+                    <div class="box">
+                        <div class="items">
+                            <h3>Endereço de entrega</h3>
+                            <h5><strong>Fulano Almeida da Silva</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +55 83 9999-9999</h5>
+                            <h5><strong>CEP:</strong> 29122-550 Rua Araçazeiro N 99</h5>
+                            <h5>Vila Velha, Espírito Santo, Brazil</h5>
+                        </div>
+                        <div class="btn-mudar">
+                            <button type="button" class="btn-remover">mudar</button>
+                        </div>
+                    </div>
+                    <div class="box" style="flex-direction: column;">
+                        <h3>Méteodos de Pagamento: </h3>
+                        <div class="met-pag">
+                            <div class="card-met-pag">
+                                <img src="../imagens/pix.png" alt="pix">
+                            </div>
+                            <div class="card-met-pag">
+                                <img src="../imagens/boleto.png" alt="pix">
+                            </div>
+                            <div class="card-met-pag">
+                                <img src="../imagens/cartao.png" alt="pix">
+                            </div>
+                            <div class="card-met-pag">
+                                <img src="../imagens/paypal.png" alt="pix">
+                            </div>
+                            <div class="card-met-pag">
+                                <img src="../imagens/bitcoin.png" alt="pix">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img-prod-final">
+                            <a href="../endereços/i512.html"><img src="../imagens/i512.jpg" alt="imagem-produto"></a>
+                        </div>
+                        <div class="txt-prod-final">
+                            <h5>Processador Intel Core i5-12400f</h5>
+                            <strong>R$9999,99</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="drt-items">
+                    <div class="box2">
+                        <div class="items2">
+                            <h3>Resumo: </h3>
+                            <h5>Subtotal</h5>
+                            <h5>Desconto</h5>
+                            <h5>Frete</h5>
+                            <h3>Total: </h3>
+                        </div> 
+                        <div class="items2">
+                            <h3>&nbsp;</h3>
+                            <h5>R$1100,00</h5>
+                            <h5>Nenhum</h5>
+                            <h5>Grátis</h5>
+                            <h3>R$1100,00</h3>
+                        </div>
+                    </div>
+                    <div class="card" id="botoes" style="width: 100%;">
+                        <button style="width: 100%;" type="button" class="btn-finalizar" onclick="showPopup()">Finalizar Compra</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div id="rodape">
+                <div style="text-align: center;">
+                    <h3 id="cor1">Todos os Direitos Reservados &copy; 2023</h3>
+                </div>
+                <div id="rodape2">
+                    <h3>Contato: </h3>
+                    <ul style="text-align: left;">
+                        <li><b>Email:</b> lojadeeletronicos@loja.com.br</li>
+                        <li><b>Telefone:</b> (83)9999-9999</li>
+                        <li><b>CNPJ:</b> 01.405.504/0001-54</li>
+                    </ul>
+                    <div id="rodape2" style="margin-left: 10%;">
+                        <h3>Sobre nós: </h3>
+                        <p style="margin-left: 10px;">
+                        Fundada em 2023 nossa loja prioriza sempre a qualidade de atendimento e satisfação do consumidor. Fazemos de tudo para garantir sua <br>
+                        satisfação! Trazendo grande game de produtos de diversas categorias com preços acessíveis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+
