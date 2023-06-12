@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap%27%29%3B");
 
-
 body {
     background: linear-gradient(#e5e5e5,#eda01123) ;
     font-family: "Lato", sans-serif;
@@ -121,7 +120,6 @@ a{
     display: flex;
     justify-content: space-around;
     color:#e5e5e5 ;
-    ;
 }
     
 
@@ -362,4 +360,160 @@ a{
     text-decoration: none;
     font-family: lato;
     box-shadow: 0 0 5px 1px #333333;
+}
+
+#finalizacao {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#finalizacao-items{
+    height: 100%;
+    width: 65%;
+    margin-top: 50px;
+    padding: 0px;
+    display: flex;
+}
+
+.esq-items {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.drt-items {
+    width: 35%;
+    height: 100%;
+    padding: 25px;
+}
+
+.items {
+    width: 90%;
+    height: fit-content;
+    padding: 10px 50px;
+    margin: 0px;
+    font-size: 12pt;
+    font-weight: 10;
+}
+
+.box {
+    margin-top: 2%;
+    background: white;
+    height: fit-content;
+    width: 100%;
+    box-shadow:  0 0 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    display: flex;
+}
+
+.box2 {
+    margin-top: 2%;
+    background: #333333;
+    height: fit-content;
+    width: 100%;
+    box-shadow:  0 0 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+}
+
+.items h5 {
+    padding: 0px;
+    margin: 0px;
+    font-weight: 20;
+}
+
+.btn-mudar {
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+}
+
+.box h3 {
+    padding: 10px 35px;
+    margin: 0px;
+}
+
+.met-pag {
+    width: 90%;
+    height: fit-content;
+    padding: 10px 50px;
+    margin: 0px;
+    font-size: 12pt;
+    font-weight: 10;
+    display: flex;
+}
+
+.card-met-pag {
+    margin: 0px 5px;
+    padding: 0px 0px;
+    background: white;
+    height: 2rem;
+    width: 3.6rem;
+    border: solid;
+    border-width: 1pt;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.card-met-pag img {
+    margin: 0px;
+    padding: 0px;
+    width: 25px;
+    height: 25px;
+}
+
+.card-met-pag:hover {
+    transform: scale(1.1);
+    border-color: #eda011;
+}
+
+.img-prod-final {
+    margin: 10px 35px;
+    height: 100%;
+    width: 20%;
+}
+
+.txt-prod-final {
+    margin: 20px 0px;
+    height: 100%;
+    width: 80%;
+    font-size: 12pt;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-prod-final img {
+    margin: 0px;
+    padding: 0px;
+    width: 150px;
+    height: 150px;
+}
+
+.items2 {
+    padding: 0px 40px;
+    width: 50%;
+    height: fit-content;
+    margin: 0px;
+    font-size: 13pt;
+    font-weight: 0;
+    color: #eda011;
+    display: flex;
+    flex-direction: column;
+}
+
+.items2 h5 {
+    margin: 0;
+    padding: 0px 0px 20px 0px;
+    font-weight: 10;
 }
